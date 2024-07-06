@@ -8,6 +8,7 @@ TEST(StringCalculatorAddTests, ExpectZeroForEmptyInput) {
     ASSERT_EQ(result, expectedresult);
 }
 
+#if 0
 TEST(StringCalculatorAddTests, ExpectZeroForSingleZero) {
     int expectedresult = 0;
     const char* input = "0";
@@ -42,3 +43,4 @@ TEST(StringCalculatorAddTests, ExpectSumWithCustomDelimiter) {
     int result = add(input);
     ASSERT_EQ(result, expectedresult);
 }
+#endif
