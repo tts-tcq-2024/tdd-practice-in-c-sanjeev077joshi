@@ -18,7 +18,7 @@ int add (const char* input)
         int num2 = atoi(comma_pos +1);
 
         return num1+num2;
-=    }
+    }
 
     return -1;
 }
