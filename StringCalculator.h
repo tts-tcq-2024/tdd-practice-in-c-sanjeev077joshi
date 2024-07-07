@@ -11,7 +11,7 @@ int add (const char* input)
     if (strcmp(input, "0") == 0)
       return 0;
 
-    char *comma_pos = strchr(input, ',');
+    const char *comma_pos = strchr(input, ',');
     if ( comma_pos != NULL)
     {
         int num1 = atoi(input);
